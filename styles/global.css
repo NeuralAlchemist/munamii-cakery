@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Niconne|Cardo|Oswald|Montserrat);
+:root {
+    --purple: #8D6C9F;
+    --dusty-pink: #CDA1A7;
+    --pink: #ED7899;
+    --goldy-yellow: #F9E3AE;
+}
+
+
+.logo {
+    font-size: 64px;
+    font-family: "Montserrat","Cardo", "Oswald";
+}
+
+.header {
+    font-size: 48px;
+    font-family: "Niconne",cursive;
+    border-bottom: 15px solid var(--purple);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    font-size: 18px;
+    font-family: "Cardo", "Oswald","Montserrat";
+}
+
+.content {
+    font-size: 36px;
+    font-family: "Montserrat","Cardo", "Oswald";
+}
+
+.subheader{
+    font-size: 48px;
+    font-family: "Montserrat","Cardo", "Oswald";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
