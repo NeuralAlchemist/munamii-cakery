@@ -25,24 +25,18 @@
 }
 
 .footer {
-    padding-left: 10vw;
-    background-color: aqua;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Cardo", "Oswald", "Montserrat";
-    grid-template-columns: 10vw 10vw 1fr;
+    background-color: var(--pink);
+    grid-template-columns: 10vw 10vw 50vw;
     display: grid;
     grid-gap: 5vw;
-    justify-content:space-around;
+    text-align: right;
+    align-items: center;
 }
 
 .footer img {
-    width: 4vw;
-}
-
-
-.social-media{
-    display: flex;
-    justify-items: space-around;
+    width: 5vw;
 }
 
 .content {
@@ -64,4 +58,9 @@ body {
     .header {
         font-size: 6vw;
     }
+
+    .footer img{
+        width: 7vw;
+    }
+
 }
