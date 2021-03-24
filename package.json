@@ -1,0 +1,22 @@
+{
+  "name": "munamii-cakery",
+  "version": "1.0.0",
+  "description": "An assignment in the SDA course where the goal is to create a website presence for an established baker. The wesbite is only to present information as mentioned in the [requirements.](docs/HTML Project- Requirements.pdf)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuralAlchemist/munamii-cakery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeuralAlchemist/munamii-cakery/issues"
+  },
+  "homepage": "https://github.com/NeuralAlchemist/munamii-cakery#readme"
+}
