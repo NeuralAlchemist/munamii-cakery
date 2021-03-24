@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/global.css" />
+        <title>Munamii Cakery</title>
+    </head>
+    <body>
+        <nav class="header">
+            <a href="#home" onclick="changeFrame('home.html')">Home</a>
+            <a href="#home" onclick="changeFrame('products.html')">Products</a>
+            <a href="#home" onclick="changeFrame('about.html')">About Us</a>
+            <a href="#home" onclick="changeFrame('contact.html')">Contact Us</a>
+        </nav>
+        <iframe
+            id="main-frame"
+            src=""
+            width="100%"
+            style="background: pink"
+            frameborder="0"
+        ></iframe>
+        <script>
+            function changeFrame(page) {
+                document.getElementById("main-frame").src = page;
+            }
+        </script>
+        <div class="footer">
+            <div><img src="/images/facebook-icon.svg" alt="" srcset=""></div>
+            <div><img id="instagram-icon"src="/images/instagram-icon.svg" alt="" srcset=""></div>
+        </div>
+    </body>
+</html>
