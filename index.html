@@ -5,29 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="styles/index.css" />
         <title>Munamii Cakery</title>
     </head>
     <body>
-        <nav class="header">
-            <a href="#home" onclick="changeFrame('home.html')">Home</a>
-            <a href="#home" onclick="changeFrame('products.html')">Products</a>
-            <a href="#home" onclick="changeFrame('about.html')">About Us</a>
-            <a href="#home" onclick="changeFrame('contact.html')">Contact Us</a>
-        </nav>
-        <iframe
-            id="main-frame"
-            src=""
-            frameborder="0"
-        ></iframe>
-        <script>
-            function changeFrame(page) {
-                document.getElementById("main-frame").src = page;
-            }
-        </script>
-        <div class="footer">
-            <div><img src="/images/facebook-icon.svg" alt="" srcset=""></div>
-            <div><img id="instagram-icon"src="/images/instagram-icon.svg" alt="" srcset=""></div>
-            <div><a href="mailto:info@munamii_cakery.com">info@munamii_cakery.com</a></div>
+        <div class="wrapper-for-everything-except-footer">
+            <nav class="header">
+                <a href="/index.html">Home</a>
+                <a href="/products.html">Products</a>
+                <a href="/about.html">About Us</a>
+                <a href="/contact.html">Contact Us</a>
+            </nav>
+            <p class="logo">Munamii Cakery</p>
+            <div class="test">
+                <!-- <img
+                    src="/images/multi-cake-tier.jpg"
+                    class="overlap and opaque this"
+                />
+                <p class="content">
+                    Hi! Welcome to Munamii Cakery! We offer you the most
+                    delicious cakes and cupcakes for all kinds of events and
+                    celebrations.
+                </p>
+                <br /><br />
+                <p class="content">
+                    Browse around to discover what you would like to buy.
+                </p> -->
+            </div>
+            <div class="push"></div>
         </div>
+
+        <footer class="footer">
+            <div><img src="/images/facebook-icon.svg" /></div>
+            <div>
+                <img id="instagram-icon" src="/images/instagram-icon.svg" />
+            </div>
+            <div>
+                <a href="mailto:info@munamii_cakery.com"
+                    >info@munamii_cakery.com</a
+                >
+            </div>
+        </footer>
     </body>
 </html>
