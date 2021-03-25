@@ -1,5 +1,5 @@
+
 .content {
-    /* position: sticky; */
     color: black;
 }
 .about-us-content {
@@ -7,11 +7,11 @@
             rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5)
         ),
-        url(/images/about-us.jpg) no-repeat center center fixed;
+        url(/images/contact-us.jpg) no-repeat center center fixed;
     background-size: cover;
+    min-height: 60vh;
 }
 
 .about-us-content .content {
     padding: 1em;
 }
-

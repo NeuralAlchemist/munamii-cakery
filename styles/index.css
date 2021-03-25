@@ -1,35 +1,21 @@
-.overlap-and-opaque-this {
-    width: 400px;
-    height: 600px;
-}
 
-.test {
-    display: inline-flex;
-    align-items: center;
+.content {
+    color: black;
 }
-
-.test img {
-    margin: 5px;
-}
-
 .home-content {
-    min-width: 500px;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url(/images/multi-cake-tier.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 60vh;
 }
 
-@media only screen and (max-width: 40em) {
-    .test img {
-        opacity: 0.1;
-    }
-
-    .test {
-        display: block;
-    }
-
-    .home-content {
-        position: absolute;
-        top: 35%;
-        left: 25%;
-        width: 30vw;
-        min-width: 50vw;
-    }
+.home-content .content {
+    padding: 1em;
 }
+
+/* .test {
+    width: 100%;
+} */

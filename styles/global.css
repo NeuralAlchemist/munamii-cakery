@@ -70,6 +70,7 @@ body {
 .content {
     font-size: 36px;
     font-family: "Montserrat", "Cardo", "Oswald";
+    padding: 0 1em;
 }
 
 .subheader {
