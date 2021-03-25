@@ -82,7 +82,7 @@ body {
 
 @media only screen and (max-width: 40em) {
     .header {
-        font-size: 6vw;
+        font-size: 24px;
     }
 
     .footer img {
@@ -90,7 +90,7 @@ body {
     }
 
     .content {
-        font-size: 6vw;
+        font-size: 24px;
     }
 
     .flex-container img {
