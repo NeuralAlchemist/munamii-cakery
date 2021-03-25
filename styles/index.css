@@ -1,2 +1,35 @@
+.overlap-and-opaque-this {
+    width: 400px;
+    height: 600px;
+}
 
+.test {
+    display: inline-flex;
+    align-items: center;
+}
 
+.test img {
+    margin: 5px;
+}
+
+.home-content {
+    min-width: 500px;
+}
+
+@media only screen and (max-width: 40em) {
+    .test img {
+        opacity: 0.1;
+    }
+
+    .test {
+        display: block;
+    }
+
+    .home-content {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
+}
