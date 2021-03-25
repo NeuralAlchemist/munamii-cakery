@@ -1,13 +1,13 @@
 .cakes-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 520px);
-    grid-gap:80px;
+    grid-gap:40px;
     justify-content: space-evenly;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px auto;
     grid-template-rows: repeat(3, auto);
 }
 
@@ -34,6 +34,37 @@ figure {
     grid-column-start: auto;
 }
 
+.cupcakes-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-gap:10px;
+    justify-content: space-evenly;
+}
+
+.cupcake-grid {
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: auto;
+}
+
+.cupcake-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cupcake-text {
+    background-color: var(--goldy-yellow);
+    text-align: center;
+    margin: 0;
+    
+}
+
+#c-img-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
 @media only screen and (max-width: 40em) {
     .grid-container {
         display: grid;
@@ -42,7 +73,7 @@ figure {
     }
 
     .wc-text {
-        margin-top: 0;
+        margin-bottom: 30px;
     }
 
     .cakes-grid-container {
