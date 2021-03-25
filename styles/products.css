@@ -1,0 +1,51 @@
+.cakes-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 520px);
+    grid-gap:80px;
+    justify-content: space-evenly;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+}
+
+figure {
+    margin: 0;
+}
+
+#wc-img-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.wc-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wc-text {
+    background-color: var(--goldy-yellow);
+    text-align: center;
+    margin: 0;
+    grid-column-start: auto;
+}
+
+@media only screen and (max-width: 40em) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 100px);
+    }
+
+    .wc-text {
+        margin-top: 0;
+    }
+
+    .cakes-grid-container {
+        display: block;
+    }
+}

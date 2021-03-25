@@ -76,9 +76,16 @@ body {
 .subheader {
     font-size: 48px;
     font-family: "Montserrat", "Cardo", "Oswald";
+    background-color: var(--dusty-pink);
+    background-clip: border-box;
+    width: max-content;
 }
 
-
+@media only screen and (max-width: 800px){
+    .header {
+        font-size: 24px;
+    }
+}
 
 
 @media only screen and (max-width: 40em) {
@@ -91,10 +98,14 @@ body {
     }
 
     .content {
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    .flex-container img {
+    /* .flex-container img {
         opacity: 0;
+    } */
+
+    .subheader {
+        font-size: 32px;
     }
 }
