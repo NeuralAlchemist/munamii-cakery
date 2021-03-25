@@ -27,9 +27,9 @@
 
     .home-content {
         position: absolute;
-        top: 60%;
-        left: 50%;
-        width: auto;
-        transform: translate(-50%, -50%);
+        top: 35%;
+        left: 25%;
+        width: 30vw;
+        min-width: 50vw;
     }
 }
