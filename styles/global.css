@@ -2,7 +2,7 @@
 :root {
     --purple: #8d6c9f;
     --dusty-pink: #cda1a7;
-    --pink: #ed7899;
+    --pink: #e39eb1;
     --goldy-yellow: #f9e3ae;
 }
 
@@ -44,7 +44,6 @@ body {
     grid-gap: 5vw;
     text-align: right;
     align-items: center;
-    line-height: 50px;
     padding: 0 20px;
 }
 

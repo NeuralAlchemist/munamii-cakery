@@ -7,13 +7,14 @@
             rgba(255, 255, 255, 0.85),
             rgba(255, 255, 255, 0.85)
         ),
-        url(/images/multi-cake-tier.jpg) no-repeat center center fixed;
+        url(/images/wedding-cakes/cupcake\ cake.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 60vh;
 }
 
 .home-content .content {
     padding: 1em;
+    text-align: center;
 }
 
 /* .test {
