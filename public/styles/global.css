@@ -35,6 +35,10 @@ body {
     color: black;
 }
 
+.nav-mobile {
+        display: none;
+    }
+
 .footer {
     font-size: 20px;
     font-family: "Cardo", "Oswald", "Montserrat";
@@ -80,13 +84,13 @@ body {
     width: max-content;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
     .header {
         font-size: 24px;
     }
 }
 
-
+/* mobile only */
 @media only screen and (max-width: 40em) {
     .header {
         font-size: 24px;
@@ -106,5 +110,30 @@ body {
 
     .subheader {
         font-size: 32px;
+    }
+
+    .nav-desktop {
+        display: none;
+        border-bottom: 15px solid var(--purple);
+    }
+
+    .nav-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 2px;
+    }
+
+    .nav-mobile:hover{
+        background-color: var(--pink);
+    }
+
+}
+
+/* very small screes*/
+
+@media only screen and (max-width: 300px) {
+    .logo {
+        font-size: 34px;
     }
 }
